@@ -1,0 +1,26 @@
+@font-face{
+    src: url(fonts/Roboto-Black.ttf);
+    font-family: Roboto-Black;
+}
+
+body {
+    font-family: Roboto-Black;
+    display: flow-root;
+}
+#p1, #p3 {
+    color: red
+}
+
+#p2, #p4 {
+    color: blue
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-right: 10px;
+}

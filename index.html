@@ -4,8 +4,248 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/jpg" href="/photos/one.jpg"> <!--Fabicon-->
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-color: lightblue; color: black;">
+    <header style="background-color: lightsalmon" >
+        <h1>Welcome to CranksKermit</h1>
+        <a  href="">Home</a>
+        <a  href="">About us</a>
+        <a  href="">Products</a>
+        <a  href="">Contact Us</a>
+        <hr>
+    </header>
+
+    <main>
+        <h4>Check out these cool moves:</h4>
+        <image src="photos/small_corner.jpg" alt="profile pic" width="200px"></image>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa vero nobis iusto ad recusandae, veniam laboriosam eligendi incidunt. Ipsum quaerat perspiciatis neque praesentium magni debitis, doloremque laboriosam aperiam numquam quibusdam!</p>
+    </main>
+
+    <footer style="background-color: lightsalmon">
+        <hr>
+        author: Josh Lilly<br>
+        &copy; copyright reserved<br>
+        <small><a href="mailto:BroCode@fake.com">BroCode@fake.com</a></footer><small>
+    </footer>
+
+
+
+    <!--Inline, Internal, External-->
+    <h1>This is my website</h1>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, iste molestias sequi laborum quis inventore, non quod odit repudiandae ipsum aperiam corrupti fugiat. Quibusdam, doloremque. Facilis officiis et commodi?</p>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, iste molestias sequi laborum quis inventore, non quod odit repudiandae ipsum aperiam corrupti fugiat. Quibusdam, doloremque. Facilis officiis et commodi?</p>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, iste molestias sequi laborum quis inventore, non quod odit repudiandae ipsum aperiam corrupti fugiat. Quibusdam, doloremque. Facilis officiis et commodi?</p>
+    <p id="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, iste molestias sequi laborum quis inventore, non quod odit repudiandae ipsum aperiam corrupti fugiat. Quibusdam, doloremque. Facilis officiis et commodi?</p>
+    <br><br><br>
+
+
+    <img src="photos/kermitGood.jpg" height="150px" id="img1"> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <br><br>
+    <img src="photos/kermitBad.jpg" height="150px" id="img2"> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusantium numquam minus illum perferendis. Voluptatem molestiae quo veritatis laborum quas officia alias, ipsum maxime atque, iste repellendus, vero quam perferendis?</p>
+    <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h4>Groceries</h4>
+    <ul>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+        <li>coffee supplies</li>
+        <ul>
+            <li>coffee beans</li>
+            <li>coffee filters</li>
+            <li>sugar</li>
+        </ul>
+    </ul>
+    <h4>To-do List</h4>
+    <ol>
+        <li>Eat breakfase</li>
+        <li>Go to class</li>
+        <li>Walk dog</li>
+        <li>Go to work</li>
+    </ol>
+    <hr>
+
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="username">username: </label> <!--required attribute -->
+        <input type ="text" id="username" placeholder="SpongeBob" minlength="6" maxlength="15"> <br>
+
+        <label for="pasword">password: </label>
+        <input type="password" id ="password>"> <br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="SSquarePants@gmail.com"> <br>
+
+        <label for="phone">phone #:</label> 
+        <input type="tel" id="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+
+        <label for="bday">birthdate</label>
+        <input type="date" id="bday"><br>
+
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity" min="0" max="99"><br>
+
+        <label for="title">title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms:</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"> <br>
+
+        <label for="payment">payment</label>
+        <select> 
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="giftdard">GiftCard</option> <br>
+        </select> <br>
+
+        <label for="subscribe">subscribe: </label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <label for="comment">comment:</label>
+        <textarea id="comment" rows="3" cols="25"></textarea> <br>
+
+        <label for="file">file:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+        <input type="reset"><br>
+        <input type="submit">
     
+    </from>
+
+
+
+    <hr>
+
+    <h4>Mythical Creatures</h4>
+    <dl style="background-color: lightcyan; border: 2px solid">
+        <dt>dragon</dt>
+            <dd>a mythical monster resembling a giant reptile, sometimes shown as having wings. In European tradition the dragon is typically fire-breathing and tends to symbolize chaos or evil, whereas in East Asia it is usually a beneficent symbol of fertility, associated with water and the heavens</dd>
+        <dt>pheonix</dt>
+            <dd>(in classical mythology) a unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.</dd>
+        <dt>werewolf</dt>
+            <dd>in myth or fiction) a person who changes for periods of time into a wolf, typically when there is a full moon.</dd>
+        <dt>vampire</dt>
+            <dd>a corpse supposed, in European folklore, to leave its grave at night to drink the blood of the living by biting their necks with long pointed canine teeth.</dd>
+    </dl>
+
+    <h3>Store Hours</h3>
+
+    <table border="1" style="background-color: black">
+        <tr align="center"style="background-color: lightblue">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" style="background-color: orange">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+    </table>
+    <br>
+
+  
+        <button onclick="doSomething()"style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">Click me</button>
+        <p id="greeting">Hello</p>
+        <script>
+            function doSomething() {
+                document.getElementById("greeting").textContent = "Goodbye";
+            }   
+        </script>
+
+
+
+    <br><br><br>
+    <p>Big 10</p>
+    <audio controls muted loop> <!--autoplay-->
+        <source src ="/Audio/Big 10 - TrackTribe.mp3" type ="audio/mpeg">
+    </audio> <hr>
+
+    <br>
+    <p>Too Late Now</p> 
+    <audio controls  muted loop>
+        <source src ="/Audio/Too Late Now - Go By Ocean _ Ryan McCaffrey.mp3" type="audio/mpeg">
+    </audio> <hr>
+    <br>
+    <p>Top of the morning</p>
+    <audio controls muted loop>
+        <source src ="/Audio/Top Of The Morning - TrackTribe.mp3" type="audio/mpeg">
+    </audio> <hr>
+
+    <a href="photos/ummm.jpg" target="_blank">        
+    <video width="500px" controls muted loop>
+        <source src="Video/RocketLeague_Goal.mp4" type="video/mp4">
+    </video>
+    </a>
+    <br><br><br>
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <u>underlined</u> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <big>big</big> text</p>
+    <p>This is <small>small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <tt>monospace</tt> text</p>
+    <p>This is <mark style="background-color: blue">mark</mark>text</p>
+
+    <br>
+    <br>
+    <br>
+
+    <h1><span style="background-color: tomato">This is a span title</span></h1>
+    <h1><div style="background-color: lightblue">This is a dive title</div></h1>
+
+    <p><span style="background-color: lightgoldenrodyellow">This is a span sentence.</span></p>
+    <p><div style="background-color: lightskyblue"> is a span sentence.</div></p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span style="background-color: paleturquoise">Soluta porro est rem, eius, saepe doloribus a excepturi repellat molestiae quae et? Fugit iure inventore fuga porro ipsa quibusdam temporibus ut!</span></p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <div style="background-color: orange">Soluta porro est rem, eius, saepe doloribus a excepturi repellat molestiae quae et? Fugit iure inventore fuga porro ipsa quibusdam temporibus ut!</div></p>
 </body>
 </html>
